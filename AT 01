@@ -1,0 +1,13 @@
+funcao inicio() {
+programa {
+  inclua biblioteca Matematica --> mat
+  
+    real x1, y1, x2, y2, d
+    leia(x1)
+    leia(y1)
+    leia(x2)
+    leia(y2)
+    d = mat.raiz((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1), 2.0)
+    escreva(d)
+  }
+}
