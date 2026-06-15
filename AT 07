@@ -1,0 +1,16 @@
+
+programa {
+  funcao inicio() {
+
+
+    real custo_fabrica, distribuidor, impostos, custo_final
+    
+  escreva(" qual o custo da fabrica ? ")  
+  leia(custo_fabrica)
+    distribuidor = custo_fabrica * 0.28
+    impostos = custo_fabrica * 0.45
+    custo_final = custo_fabrica + distribuidor + impostos
+    escreva(custo_final)
+  }
+}
+  
