@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    inteiro total_dias, anos, meses, dias
+    escreva("pqual suas idade ?? ")
+    leia(total_dias)
+    anos = total_dias / 365
+    meses = (total_dias % 365) / 30
+    dias = (total_dias % 365) % 30
+    escreva(anos, " anos, ", meses, " meses e ", dias, " dias")
+  }
+}
