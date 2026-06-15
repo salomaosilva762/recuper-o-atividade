@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro valor, n100, n50, n10, n5, n1, resto
+   escreva("qual o valor ")
+    leia(valor)
+
+    n100 = valor / 100
+    resto = valor % 100
+    n50 = resto / 50
+    resto = resto % 50
+    n10 = resto / 10
+    resto = resto % 10
+    n5 = resto / 5
+    n1 = resto % 5
+    escreva(valor, " -> ", n100, " de 100, ", n50, " de 50, ", n10, " de 10, ", n5, " de 5, ", n1, " de 1")
+  }
+}
