@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real t1, t2, t3, t4, t5, e3, e4, e5
+    
+    t1 = 1.0
+    t2 = 1.0 / 1.0
+    t3 = 1.0 / 2.0
+    t4 = 1.0 / 6.0
+    t5 = 1.0 / 24.0
+    e3 = t1 + t2 + t3
+    e4 = t1 + t2 + t3 + t4
+    e5 = t1 + t2 + t3 + t4 + t5
+    escreva("Com 3 termos: ", e3, " ")
+    escreva("Com 4 termos: ", e4, " ")
+    escreva("Com 5 termos: ", e5)
+  }
+}
