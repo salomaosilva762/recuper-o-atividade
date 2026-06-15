@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro a, b, c, maior
+    escreva("nunero de A ")
+    leia(a)
+escreva("numero b ")
+    leia(b)
+escreva("numero de c ")
+    leia(c)
+    escreva(a, " ", b, " ", c, " ")
+    maior = a
+    se (b > maior) {
+      maior = b
+    }
+    se (c > maior) {
+      maior = c
+    }
+    escreva("\n ",maior, " É o maior")
+  }
+}
