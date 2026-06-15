@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro a, b
+   escreva("valor de A ")
+    leia(a)
+escreva(" valor de B ")
+    leia(b)
+    escreva(a, " ", b, " ")
+    se (a % b == 0 ou b % a == 0) {
+      escreva("São múltiplos")
+    }
+    se (a % b != 0 e b % a != 0) {
+      escreva("Não são múltiplos")
+    }
+  }
+}
