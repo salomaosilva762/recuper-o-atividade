@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro n
+    escreva("qual o numero ")
+    leia(n)
+    se (n % 2 == 0) {
+      escreva("par ")
+    }
+    se (n % 2 != 0) {
+      escreva("ímpar ")
+    }
+    se (n >= 0) {
+      escreva("positivo")
+    }
+    se (n < 0) {
+      escreva("negativo")
+    }
+  }
+}
