@@ -1,0 +1,30 @@
+programa {
+  funcao inicio() {
+    inteiro id
+    real n1, n2, n3, me, ma
+    cadeia conceito
+   escreva("id ? ")
+    leia(id)
+   escreva("nota 01")
+    leia(n1)
+   escreva("nota 02 ")
+    leia(n2)
+   escreva("nota 03 ")
+    leia(n3)
+    
+    leia(me)
+    ma = (n1 + (n2 * 2) + (n3 * 3) + me) / 7
+    se (ma >= 9.0) { conceito = "A" }
+    se (ma >= 7.5 e ma < 9.0) { conceito = "B" }
+    se (ma >= 6.0 e ma < 7.5) { conceito = "C" }
+    se (ma >= 4.0 e ma < 6.0) { conceito = "D" }
+    se (ma < 4.0) { conceito = "E" }
+    escreva(id, " Notas: ", n1, ", ", n2, ", ", n3, " ME: ", me, " MA: ", ma, " Conceito: ", conceito, " ")
+    se (conceito == "A" ou conceito == "B" ou conceito == "C") {
+      escreva("APROVADO")
+    }
+    se (conceito == "D" ou conceito == "E") {
+      escreva("REPROVADO")
+    }
+  }
+}
