@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro inicio_jogo, fim_jogo, duracao
+   escreva("qual o inicio do jogo ")
+    leia(inicio_jogo) 
+escreva("qual o final do jogo ")
+    leia(fim_jogo)
+    se (fim_jogo > inicio_jogo) {
+      duracao = fim_jogo - inicio_jogo
+    }
+    se (fim_jogo <= inicio_jogo) {
+      duracao = (24 - inicio_jogo) + fim_jogo
+    }
+    escreva(duracao)
+  }
+}
