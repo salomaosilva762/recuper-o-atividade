@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    cadeia cod
+    inteiro qtd
+    real total
+    escreva(" CODIGO ")
+    leia(cod)
+escreva(" quabtidade ")
+    leia(qtd)
+    total = 0.0
+    se (cod == "ABCD") { total = qtd * 5.30 }
+    se (cod == "XPJK" ou cod == "ΧΥΡΚ") { total = qtd * 6.00 }
+    se (cod == "KLMP") { total = qtd * 3.20 }
+    se (cod == "QRST") { total = qtd * 2.50 }
+    se (cod != "ABCD" e cod != "XPJK" e cod != "ΧΥΡΚ" e cod != "KLMP" e cod != "QRST") {
+      escreva("codigo invalido")
+    }
+    se (total > 0) {
+      escreva(total)
+    }
+  }
+}
