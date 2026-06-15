@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    real ipi, v1, v2, total
+    inteiro c1, q1, c2, q2
+   escreva("qual o IpI ")
+  
+    leia(ipi)
+   escreva(" c1 ?")
+    leia(c1)
+   escreva("v1 ?")
+    leia(v1)
+   escreva(" q1 ?")
+    leia(q1)
+   escreva("c 2 ?")
+    leia(c2)
+   escreva("v2 ?")
+    leia(v2)
+    escreva("q2 ?")
+    leia(q2)
+    total = ((v1 * q1) + (v2 * q2)) * ((ipi / 100) + 1)
+    escreva(total)
+  }
+}
