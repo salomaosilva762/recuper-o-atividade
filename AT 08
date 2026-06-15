@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+
+    real a, b, c, d, e, f, x, y
+   escreva("coeficiente A ?")
+    leia(a)
+escreva("coeficiente  B ? ")
+
+    leia(b)
+escreva("coeficiente C ?")
+    leia(c)
+escreva(" coeficiente D ? ")
+    leia(d)
+escreva("coeficiente E ?")
+    leia(e)
+escreva("coeficiente F ? ")
+    leia(f)
+
+    x = ((c * e) - (b * f)) / ((a * e) - (b * d))
+    y = ((a * f) - (c * d)) / ((a * e) - (b * d))
+    escreva("x = ", x, " y = ", y)
+  }
+}
