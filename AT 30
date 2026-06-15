@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real indice
+    escreva("qual os indices ?")
+    leia(indice)
+    se (indice >= 0.3 e indice < 0.4) {
+      escreva("Grupo 1 suspende atividades")
+    }
+    se (indice >= 0.4 e indice < 0.5) {
+      escreva("Grupo 1 e Grupo 2 suspendem atividades")
+    }
+    se (indice >= 0.5) {
+      escreva("Todos os grupos param as atividades")
+    }
+    se (indice < 0.3) {
+      escreva("Indices aceitaveis")
+    }
+  }
+}
