@@ -1,0 +1,21 @@
+programa {
+  inclua biblioteca Matematica --> mat
+  funcao inicio() {
+    inteiro a, b, c
+    real s, area
+    escreva(" valor de A ")
+    leia(a) 
+escreva("valor de B")
+    leia(b)
+escreva("valor de C ")
+    leia(c)
+    se (a < b + c e b < a + c e c < a + b) {
+      s = (a + b + c) / 2.0
+      area = mat.raiz(s * (s - a) * (s - b) * (s - c), 2.0)
+      escreva(area)
+    }
+    se (a >= b + c ou b >= a + c ou c >= a + b) {
+      escreva(a, " ", b, " ", c)
+    }
+  }
+}
