@@ -1,0 +1,14 @@
+rograma {
+  funcao inicio() {
+    inteiro anos, meses, dias, total
+    escreva("tem qauntos anos ?")
+    leia(anos)
+escreva("quantos neses?")
+    leia(meses)
+escreva("e quantos dias ? ")
+    leia(dias)
+
+    total = (anos * 365) + (meses * 30) + dias
+    escreva(total)
+  }
+}
