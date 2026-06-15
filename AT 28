@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    inteiro h_ini, m_ini, h_fim, m_fim, total_ini, total_fim, total_dur, h_dur, m_dur
+   escreva("H INI ")
+    leia(h_ini)
+    
+   
+    escreva(" M FIM ?")
+   
+    leia(m_fim)
+    total_ini = (h_ini * 60) + m_ini
+    total_fim = (h_fim * 60) + m_fim
+    se (total_fim > total_ini) {
+      total_dur = total_fim - total_ini
+    }
+    se (total_fim <= total_ini) {
+      total_dur = ((24 * 60) - total_ini) + total_fim
+    }
+    h_dur = total_dur / 60
+    m_dur = total_dur % 60
+    escreva(h_dur, " horas e ", m_dur, " minutos")
+  }
+}
