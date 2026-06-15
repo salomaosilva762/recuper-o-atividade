@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro cod, qtd
+    real total
+    escreva("qual codigo deseja ? ")
+    leia(cod) 
+
+escreva("a quantidade do pedido ? ")
+    leia(qtd)
+    total = 0.0
+    se (cod == 100) { total = qtd * 1.20 }
+    se (cod == 101) { total = qtd * 1.30 }
+    se (cod == 102) { total = qtd * 1.50 }
+    se (cod == 103) { total = qtd * 1.20 }
+    se (cod == 104) { total = qtd * 1.30 }
+    se (cod == 105) { total = qtd * 1.00 }
+    escreva(total)
+  }
+}
